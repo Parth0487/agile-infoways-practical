@@ -1,14 +1,14 @@
 Backend:
 --------
 
-1) I have created an authentication flow by which only admins can fetch the list of the application. With the same flow we can create update/delete application flow.
-- I have used middleware to authenticate the perticular user (Admin)
-2) for the database, I have used mongodb. Please replace the DB url in the .env file.
+1) I have created an authentication flow by which only admins can fetch the list of the application. With the same flow, we can create an update/delete application flow.
+- I have used middleware to authenticate the particular user (Admin)
+2) for the database, I have used MongoDB. Please replace the DB URL in the .env file.
 3) 3 APIs in the backend code: Listing API (with authentication), login (for admin- which will give a token for authorization in the response), application submit (to fill the form and create an entry in the database)
 4) Kindly follow the readme.md file to run the backend server.
 
-- We can use bcrypt or crypto modules for password encryption. For now it is implemented in a normal way.
-- To add the admin user data by seeder, we can simply create a script having a query to add a user using mongoose. Just run the script and user will be added in the database.
+- We can use bcrypt or crypto modules for password encryption. For now, it is implemented in a normal way.
+- To add the admin user data by seeder, we can simply create a script having a query to add a user using mongoose. Just run the script and the user will be added to the database.
 
 - Kindly create a user with any credentials in the database as the seeder file is not included.
 
@@ -18,8 +18,10 @@ Frontend:
 
 1) Vue3 is used to implement the UI.
 2) A normal form has been created having some normal fields with validations
-3) Kindly follow the readme.md file to run the vue frontend project
-4) We can also place a logout button at the navigation menu.
+3) Kindly follow the readme.md file to run the Vue frontend project
+4) We can also place a logout button on the navigation menu.
+
+5) For the protected route, we can use authgaurd functionality which vue-router provides for authorization purposes.
 
 
 # Postman collection link:
