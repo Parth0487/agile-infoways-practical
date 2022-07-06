@@ -1,0 +1,36 @@
+Backend:
+--------
+
+1) I have created an authentication flow by which only admins can fetch the list of the application. With the same flow we can create update/delete application flow.
+- I have used middleware to authenticate the perticular user (Admin)
+2) for the database, I have used mongodb. Please replace the DB url in the .env file.
+3) 3 APIs in the backend code: Listing API (with authentication), login (for admin- which will give a token for authorization in the response), application submit (to fill the form and create an entry in the database)
+4) Kindly follow the readme.md file to run the backend server.
+
+- We can use bcrypt or crypto modules for password encryption. For now it is implemented in a normal way.
+- To add the admin user data by seeder, we can simply create a script having a query to add a user using mongoose. Just run the script and user will be added in the database.
+
+
+Frontend:
+---------
+
+1) Vue3 is used to implement the UI.
+2) A normal form has been created having some normal fields with validations
+3) Kindly follow the readme.md file to run the vue frontend project
+4) We can also place a logout button at the navigation menu.
+
+
+# Postman collection link:
+https://www.getpostman.com/collections/08269493be7255b9c9de
+
+# Github collection link
+
+
+
+Versions:
+---------
+
+Node - 12.18.3
+NPM - 6.14.6
+vue - 3.2.13
+
