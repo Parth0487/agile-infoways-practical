@@ -24,7 +24,7 @@ Frontend:
 https://www.getpostman.com/collections/08269493be7255b9c9de
 
 # Github collection link
-
+https://github.com/Parth0487/agile-infoways-practical
 
 
 Versions:
