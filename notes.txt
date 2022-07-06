@@ -10,6 +10,8 @@ Backend:
 - We can use bcrypt or crypto modules for password encryption. For now it is implemented in a normal way.
 - To add the admin user data by seeder, we can simply create a script having a query to add a user using mongoose. Just run the script and user will be added in the database.
 
+- Kindly create a user with any credentials in the database as the seeder file is not included.
+
 
 Frontend:
 ---------
